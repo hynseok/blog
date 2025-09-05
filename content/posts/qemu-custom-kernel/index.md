@@ -27,11 +27,9 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    image: "posts/qemu-custom-kernel/qemu-cover.png" # image path/url
+    alt: "cover image" # alt text
+
 editPost:
     URL: "https://github.com/hynseok/blog/blob/main/content"
     Text: "Suggest Changes" # edit text

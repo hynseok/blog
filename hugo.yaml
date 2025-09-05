@@ -81,7 +81,10 @@ params:
   homeInfoParams:
     Title: "I want to be a Hacker \U0001F44B"
     Content: |
-      I have gained extensive experience in user-centered service development and management, which led to a strong interest in services' security and reliability. This interest drew me to system security and Rust - a language designed for memory safety.
+      I've spent years managing and developing user-centric services, which led to a strong interest in services' security and reliability. This interest drew me to **System Security** and **Rust** - a language designed for memory safety.   
+      &nbsp;
+
+      I acquired South Korea's **Engineer Information Security(정보보안기사)** national certification. Now, I'm taking a step further into the offensive side by preparing for the **OSCP (Offensive Security Certified Professional)** certification.   
 
   socialIcons:
     - name: github
@@ -100,9 +103,9 @@ params:
   #     SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/hynseok/blog/blob/main/content"
