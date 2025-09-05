@@ -1,0 +1,149 @@
+baseURL: "https://cbum.org/"
+title: 해커가 되고싶다
+theme: ["PaperMod"]
+
+pagination:
+  disableAliases: false
+  pagerSize: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 해커가 되고싶다
+  description: "해커가 되고싶어요."
+  keywords: [Blog, Portfolio, Hacker, Developer, Programmer]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["/web-app-manifest-512x512.png"] # for opengraph, twitter-cards and schema
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/favicons/apple-touch-icon.png"
+
+  label:
+    text: "해커가 되고싶다"
+    icon: /web-app-manifest-512x512.png
+    iconHeight: 60
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: 해커가 되고싶다
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "I want to be a Hacker \U0001F44B"
+    Content: |
+      I have gained extensive experience in user-centered service development and management, which led to a strong interest in services' security and reliability. This interest drew me to system security and Rust - a language designed for memory safety.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/hynseok"
+    - name: instagram
+      url: "https://instagram.com/hynseok"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/hynseok/blog/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 1
+    - identifier: Categories
+      name: Categories
+      url: /categories/
+      weight: 2
+    - identifier: Tags
+      name: Tags
+      url: /tags/
+      weight: 3
+    - name: Search
+      url: search/
+      weight: 4
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
