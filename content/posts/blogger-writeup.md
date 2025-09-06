@@ -27,7 +27,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "posts/blogger-writeup/cover.jpg" # image path/url
+    image: "posts/cover/offsec.png" # image path/url
     alt: "cover-image"
 
 editPost:

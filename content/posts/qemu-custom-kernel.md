@@ -27,7 +27,7 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "posts/qemu-custom-kernel/qemu-cover.png" # image path/url
+    image: "posts/cover/qemu-cover.png" # image path/url
     alt: "cover image" # alt text
 
 editPost:
