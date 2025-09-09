@@ -37,7 +37,7 @@ editPost:
 ---
 
 ## Enumeration
-#### Nmap
+### Nmap
 command
 ```shell
 sudo nmap -p- -T4 target
@@ -65,7 +65,7 @@ PORT   STATE SERVICE VERSION
 ```
 * 상세 버전 정보 조회 결과입니다.
 
-#### Gobuster
+### Gobuster
 command
 ```
 gobuster dir -u http://target -w /usr/share/wordlists/dirb/common.txt -z
