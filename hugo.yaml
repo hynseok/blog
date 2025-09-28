@@ -1,4 +1,4 @@
-baseURL: "https://cbum.org/"
+baseURL: "https://blog.cbum.org/"
 title: 해커가 되고싶다
 theme: ["PaperMod"]
 
@@ -95,8 +95,8 @@ params:
       url: "https://stackoverflow.com"
 
   # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
+  #  google:
+  #    SiteVerificationTag: "G-F6BQB2HQF3"
   #   bing:
   #     SiteVerificationTag: "XYZabc"
   #   yandex:
@@ -150,3 +150,7 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+services:
+  googleAnalytics:
+    ID: "G-F6BQB2HQF3"
