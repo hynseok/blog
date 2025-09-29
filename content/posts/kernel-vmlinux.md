@@ -1,6 +1,6 @@
 ---
 title: "vmlinux 란?"
-date: 2025-09-19T07:00:00+09:00
+date: 2025-09-29T07:00:00+09:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["linux", "kernel"]
